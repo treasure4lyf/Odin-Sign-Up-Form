@@ -1,0 +1,36 @@
+body {
+    background-color: green;
+background-image: url('img_girl.jpg');
+ 
+}
+
+.logo {
+display: flex;
+border: black solid;
+background-color: transparent;
+padding: 8px;
+text-align: center;
+}
+#text {
+    color: white;
+}
+    
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
+   
+}
+.container2 {
+    border: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    
+}
+
+input {
+    gap: 8px;
+}
