@@ -21,23 +21,23 @@
 <form action="example.com/path" method="post">
  
     <label for="first_name">First Name:</label>
- <input type="text" id="first_name"  name="last_name" placeholder="Bob...">
+ <input type="text" id="first_name"  name="last_name" placeholder="Bob..." required>
 <label for="first_name">Last Name:</label>
- <input type="text" id="last_name"  name="last_name" placeholder="Joe...">
+ <input type="text" id="last_name"  name="last_name" placeholder="Joe..." required>
  <br>
  <br>
 
     <label for="user_email">Email:</label>
-<input type="email" id="user_email" name="email" placeholder="you@example.com">
+<input type="email" id="user_email" name="email" placeholder="you@example.com" pattern="....@gmail.com" title="Please enter a valid email address, example: .....@gmail.com">
 <label for="phone_number">Phone Number:</label>
-  <input type="tel" id="phone_number" name="phone_number">
+  <input type="tel" id="phone_number" name="phone_number" pattern="+23470....">
  <br>
  <br>
     <label for="user_password">Password:</label>
-<input type="password" id="user_password" name="password" placeholder="Enter Password">
+<input type="password" id="user_password" name="password" placeholder="Enter Password" minlength="3" maxlength="8" required>
  <label for="user_password">Password:</label>
-<input type="password" id="user_password" name="password" placeholder="Confirm Password">
-<button type="button" style="background-color: aqua;" >Create account</button>
+<input type="password" id="user_password" name="password" placeholder="Confirm Password" minlength="3" maxlength="8" required>
+<button type="button" class="check">Create account</button>
 <div>
     <h2>Already have an account?</h2>
     <button type="submit" style="background-color: aqua;">Log in</button>
