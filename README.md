@@ -10,7 +10,7 @@ Odin Sign Up Form
 - Javascript 
 
 ## Live Demo 
-[Live Demo Link]https://treasure4lyf.github.io/ODIN-SIGN-UP-FORM/
+[Live Demo Link]https://treasure4lyf.github.io/Odin-Sign-Up-Form/
 
 # Getting Started
 
